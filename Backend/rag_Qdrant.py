@@ -119,7 +119,7 @@ def add_documento_txt(document_path):
     db.add_documents(novos_chunks)
 
 
-# add_documento_pdf("documentos/PlanosEnsino/INF01202.pdf")
+# add_documento_pdf("documentos/Pasta/documento.pdf")
 def add_documento_pdf(document_path):
     novos_documentos = load_doc_pdf(document_path)
     print(f">>> PDF carregado: {len(novos_documentos)} páginas")
